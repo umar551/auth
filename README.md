@@ -5,6 +5,7 @@ Authentication JWT
 Generic Response
 Refresh token
 Hashing password
+SWAGGER
 DB#tables
 
 SELECT `roles`.`id`,
