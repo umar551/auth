@@ -1,5 +1,5 @@
 export type ResponseData<M,S,D> = {
     message:M;
-    status:S;
+    success:S;
     data:D;
 }

@@ -11,14 +11,14 @@ export class HttpInterceptor implements NestInterceptor {
     if(typeof data == 'object'){
       var resp:ResponseData<string,boolean,any>={
         message : '',
-        status : true,
+        success : true,
         data : data,
       };
     }
     else{
       var resp:ResponseData<string,boolean,any>={
         message : data,
-        status : false,
+        success : false,
         data : {},
       };
     }
